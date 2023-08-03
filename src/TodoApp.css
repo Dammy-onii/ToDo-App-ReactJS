@@ -1,0 +1,159 @@
+/* App container */
+.todo-app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* App heading */
+  .todo-app h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form container */
+  .todo-form {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  
+  /* Form input */
+  .todo-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Form button */
+  .todo-button {
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 5%;
+  }
+  
+  .todo-button:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Task groups container */
+  .task-groups {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Task group container */
+  .task-group {
+    flex-grow: 1;
+    margin: 0 10px;
+  }
+  
+  /* Task group heading */
+  .task-group h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Todo list container */
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Task item container */
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-item.completed {
+    background-color: #f5f5f5;
+  }
+  
+  /* Task content */
+  .task-content {
+    flex-grow: 1;
+    font-size: 16px;
+  }
+  
+  /* Task buttons container */
+  .task-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Complete button */
+  .complete-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .complete-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Delete button */
+  .delete-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+
+  @media screen and (max-width: 900px)  {
+    .todo-form {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-bottom: 20px;
+    }
+    .task-groups {
+      display: flex;
+      flex-direction: column;
+    }
+    .todo-button{
+      margin-left: 0;
+      margin-top: 5%;
+    }
+  }
