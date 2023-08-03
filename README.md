@@ -2,19 +2,19 @@
 A simple todo website that lets you add, remove, and mark tasks as complete. The website is easy to use and can be accessed from any device.
 Features:
 
-Add tasks
-Remove tasks
-Mark tasks as complete
-Sort tasks by priority
-Filter tasks by status
-Search for tasks
+Add tasks,
+Remove tasks,
+Mark tasks as complete,
+Sort tasks by priority,
+Filter tasks by status,
+Search for tasks,
 Benefits:
 
-Keep track of your tasks
-Stay organized
-Never forget a task again
-Easily prioritize your tasks
-Get things done
+Keep track of your tasks,
+Stay organized,
+Never forget a task again,
+Easily prioritize your tasks,
+Get things done,
 Try it today!
 
 
